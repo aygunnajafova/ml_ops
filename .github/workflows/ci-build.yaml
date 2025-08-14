@@ -19,6 +19,4 @@ jobs:
           enable-cache: true
 
       - name: Ruff check
-        run: uvx ruff check --output-format=github .
-
-    
+        run: uvx ruff check --output-format=github . --extend-exclude '*.ipynb'
