@@ -67,5 +67,6 @@ extend-exclude = '''
   | \.venv
   | build
   | dist
+  | *.ipynb
 )/
 '''
